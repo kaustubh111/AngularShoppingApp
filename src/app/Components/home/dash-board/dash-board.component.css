@@ -1,0 +1,41 @@
+#maindiv{
+    background-color:cornsilk;
+    height: 600px;
+    padding: 0.5cm;
+  }
+  #cartDiv{
+    margin-left:800px;
+    margin-top:-600px;
+    width:400px;
+   
+    /*
+     border:2px solid;
+    position:relative;
+    background-color:powderblue;*/
+  }
+  #cd1{
+    background-color:powderblue;
+    height: 500px;
+    width: 340px;
+    border-radius: 1cm;
+    padding: 0.5cm;
+      }
+   h2{
+       color: blue;
+   } 
+   
+   button{
+    color: azure;
+    width: 120px;
+    height:37.5px;
+    border-radius: 0px;
+    font-size: 14px;
+   
+   } 
+
+   span{
+     background-color: azure;
+     border-radius: 5px;
+   }
+   
+  

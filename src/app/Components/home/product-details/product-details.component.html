@@ -1,0 +1,12 @@
+<div id="maindiv" class="container col-lg-8">
+        <h2>Product Details</h2>
+    
+        <div *ngIf="product">
+          <h3>{{ product.name }}</h3>
+          <h4>{{ product.price | currency }}</h4>
+          <p>{{ product.description }}</p>
+          <button id="share" class="btn btn-primary" (click)=share()>Share</button>
+        </div>
+</div>
+<router-outlet></router-outlet>
+

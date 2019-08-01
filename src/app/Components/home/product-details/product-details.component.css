@@ -1,0 +1,31 @@
+#maindiv{
+    background-color:cornsilk;
+    height: 600px;
+    padding: 0.5cm;
+  }
+  #cd1{
+    background-color:powderblue;
+    height: 500px;
+    width: 340px;
+    border-radius: 1cm;
+    padding: 0.5cm;
+      }
+   h2{
+       color: blue;
+       align-content: center;
+   } 
+   button{
+    color: azure;
+    width: 120px;
+    height:37.5px;
+    border-radius: 0px;
+   
+   } 
+   
+    
+   span{
+     background-color: azure;
+     border-radius: 5px;
+   }
+   
+  

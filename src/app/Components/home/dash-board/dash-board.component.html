@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<router-outlet></router-outlet>
+<div style="text-align:center">
+ 
+        <div id="maindiv" class="container col-lg-8">
+            Hello User
+        <div id="cd1" style="text-align:left" class="col-lg-6">
+          <h2>Products</h2>
+          <div *ngFor="let product of Products index as productId">
+            
+             <a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
+                  {{product.name}}
+              </a>
+             <p *ngIf="description">
+                    Description: {{product.description}}&nbsp;&nbsp;
+                    <span>Price:{{product.price}}</span>
+                  </p>
+                  <button class="btn btn-primary" (click)="addToCart(product)">Buy</button> &nbsp;&nbsp;&nbsp;&nbsp;
+                 <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+            </div>
+         </div>
+         
+        
+        </div>
+        </div>
+        <!-- <div id="cartDiv" class="bordered">
+          <app-cart></app-cart>
+        </div> -->
+        <router-outlet></router-outlet>
+       
+        
+        
+        

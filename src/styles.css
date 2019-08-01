@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+#maindiv{
+    background-color:cornsilk;
+    height: 600px;
+    padding: 0.5cm;
+    margin-left:280px;
+  }
+ 
+  #cd1{
+    background-color:powderblue;
+    height: 500px;
+    width: 340px;
+    border-radius: 1cm;
+    padding: 0.5cm;
+      }
+      
+   button{
+    color: azure;
+    width: 120px;
+    height:37.5px;
+    border-radius: 0px;
+   
+   }
+   #cart{
+    margin-top:-60px;
+    margin-bottom:60px;
+    margin-left:450px;
+   }
+   #cartimg
+   {
+    position:relative;
+    margin-left:27.5cm;
+   } 
+
+   #numberCircle {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+    background:black;
+    border: 2px solid black;
+    color:white;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+    margin-top:-42px;
+    margin-bottom:20px;
+    margin-left:28.3cm;
+    position:relative;
+  }
+  a{
+    text-decoration: none;
+  }
+  .container{
+    margin-left:20px;
+    margin-bottom: 5px;
+  }
+   span{
+     background-color: azure;
+     border-radius: 5px;
+   }
+   #addButton{
+    color: brown;
+   }
+   
+  

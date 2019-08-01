@@ -1,0 +1,50 @@
+
+  #maindiv{
+    background-color:cornsilk;
+    height: 600px;
+    padding: 0.5cm;
+  }
+  .cart-item{
+    padding: 5px;
+    }
+
+  span{
+    background-color:azure;
+    text-align: center;
+    border:1px solid blue;
+    border-radius:4px;
+    padding: 2px;
+
+  }
+  #cartDiv{
+    
+     background-color:gray;
+     border:2px solid gray;
+     width:200px;
+    }
+   #checkoutForm{
+     margin-left:350px;
+     color:azure;
+     background-color:gray;
+     border:2px solid gray;
+    }   
+   a{
+     color:yellow;
+   }  
+  button{
+    color: azure;
+    width: 120px;
+    height:37.5px;
+    border-radius: 0px;
+   
+   }
+  h3{
+      width:100px;
+      text-align: center;
+      border:1px solid blue;
+      border-radius:4px;
+      padding: 2px;
+      background-color:azure;
+  }
+
+  

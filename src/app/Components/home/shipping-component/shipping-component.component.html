@@ -1,0 +1,8 @@
+<div id="maindiv"  class="container col-md-8">
+
+    <h3>Shipping Charges</h3>
+    <div class="cart-item col-md-3" *ngFor="let type of shippingCosts | async">
+        <span>{{type.type}}</span> <span>{{type.price | currency}}</span>
+    </div>
+            
+</div>

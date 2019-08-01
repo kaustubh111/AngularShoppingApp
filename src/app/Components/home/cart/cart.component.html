@@ -1,0 +1,32 @@
+<div id="maindiv" class="container col-md-6">
+
+<div id="cartDiv">
+<h3>Cart</h3>
+  <div class="cart-item" *ngFor="let item of items" >
+   
+  <span *ngIf=!stat>{{ item.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ item.price | currency }}</span>
+
+</div>
+</div>
+<br>
+<button class="btn btn-primary" type="button" (click)=checkout()>CheckOut</button>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="btn btn-primary" type="button" (click)=undoCheckout()>Clear</button>
+    <div class="col-md-3" id="checkoutForm" *ngIf=checkoutTrue>
+    
+    <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+    
+    <label for="name" class="name">Name</label>
+    <input type="text" id="name" formControlName="name" required>
+    
+    <label for="address" class="address">Address</label>
+    <input type="text" id="address" formControlName="address" required>
+    <br><br>
+    <button class="btn btn-success" type="submit">Purchase</button>
+    <br>
+    <a routerLink="/shipping">Shipping >></a>
+  </form>
+
+    </div>
+
+</div>
